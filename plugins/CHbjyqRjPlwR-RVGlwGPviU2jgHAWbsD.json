@@ -1,0 +1,775 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "dataview",
+        "version": "0.5.68",
+        "title": "[zh-tw] Dataview",
+        "description": "Dataview Localization & Tweaks",
+        "language": "zh-tw",
+        "supportedVersions": "0.5.68",
+        "author": "Chico",
+        "updatedAt": 1778618097243
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "(disabled; enable in settings)",
+                    "target": "（已停用；請在設定中啟用）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": ": ",
+                    "target": ": "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": ", ",
+                    "target": ", "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "If enabled, Dataview will automatically append tasks with their completion date when they are checked in Dataview views.",
+                    "target": "如果啟用，Dataview將在Dataview檢視中自動附加已完成任務的完成日期。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Example with default field name and date format: - [x] my task [completion:: 2022-01-01]",
+                    "target": "預設的檔名與日期格式 : - [x] 我的任務 [completion:: 2022-01-01]"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "If enabled, will use emoji shorthand instead of inline field formatting to fill out implicit task field \"completion\".",
+                    "target": "如果啟用，將使用表情符號簡寫代替內聯欄位格式來填寫隱式任務欄位“完成”。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Example: - [x] my task ✅ 2022-01-01",
+                    "target": "- [x] 我的任務 ✅ 2022-01-01"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Disable this to customize the completion date format or field name, or to use Dataview inline field formatting.",
+                    "target": "停用此選項以自定義完成日期格式或欄位名稱，或使用Dataview內聯欄位格式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Only available when \"automatic task completion tracking\" is enabled.",
+                    "target": "僅在啟用“自動任務完成跟蹤”時可用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Text used as inline field key for task completion date when toggling a task's checkbox in a Dataview view.",
+                    "target": "在 Dataview 檢視中切換任務核取方塊時用作內聯欄位鍵的任務完成日期。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Only available when \\\"automatic task completion tracking\\\" is enabled and \\\"use emoji shorthand for completion\\\" is disabled.",
+                    "target": "僅在啟用 \"自動任務完成跟蹤\" 且停用 \"使用表情符號簡寫表示完成\" 時可用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Couldn't convert value into a JSON string: ",
+                    "target": "無法將值轉換為 JSON 字串:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable or disable executing regular inline Dataview queries.",
+                    "target": "啟用或停用執行常規的內聯 Dataview 查詢。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable or disable executing DataviewJS queries.",
+                    "target": "啟用或停用執行 DataviewJS 查詢。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable or disable executing inline DataviewJS queries. Requires that DataviewJS queries are enabled.",
+                    "target": "啟用或停用執行內聯 DataviewJS 查詢。需要 DataviewJS 查詢已啟用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enables or disables visual highlighting / pretty rendering for inline fields in reading view.",
+                    "target": "在閱讀檢視中啟用或停用內聯欄位的視覺高亮顯示/美觀渲染。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enables or disables visual highlighting / pretty rendering for inline fields in Live Preview.",
+                    "target": "啟用或停用即時預覽中內聯欄位的視覺高亮顯示/美化渲染。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Keyword for DataviewJS blocks. Defaults to 'dataviewjs'. Reload required for changes to take effect.",
+                    "target": "DataviewJS 區塊的關鍵字。預設為 'dataviewjs'。變更後需要重新載入才會生效。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The prefix to inline queries (to mark them as Dataview queries). Defaults to '='.",
+                    "target": "內聯查詢的字首（用於標記為Dataview查詢）。預設為'='。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The prefix to JavaScript inline queries (to mark them as DataviewJS queries). Defaults to '$='.",
+                    "target": "JavaScript 內聯查詢的字首（用於將其標記為 DataviewJS 查詢）。預設值為 '$='。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, inline queries will also be evaluated inside full code blocks.",
+                    "target": "如果啟用，內聯查詢也會在完整程式碼區塊中進行評估。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If toggled off, the small number in the result header of TASK and TABLE queries will be hidden.",
+                    "target": "如果切換關閉，TASK 和 TABLE 查詢結果頭部的小數字將被隱藏。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If set, queries which return 0 results will render a warning message.",
+                    "target": "如果設定了該選項，返回0結果的查詢將顯示警告資訊。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "What null/non-existent should show up as in tables, by default. This supports Markdown notation.",
+                    "target": "在表格中預設應顯示什麼為空/不存在。這支援Markdown語法。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How long to wait (in milliseconds) for files to stop changing before updating views.",
+                    "target": "在更新檢視之前，等待檔案停止更改的時間（以毫秒為單位）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The name of the default ID column in tables; this is the auto-generated first column that links to the source file.",
+                    "target": "表格中預設ID列的名稱；這是自動生成的第一列，用於連結到原始檔。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Only available when \"automatic task completion tracking\" is enabled.",
+                    "target": "僅在啟用“自動任務完成跟蹤”時可用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Only available when \"automatic task completion tracking\" is enabled and \"use emoji shorthand for completion\" is disabled.",
+                    "target": "僅在啟用 \"自動任務完成跟蹤\" 且停用 \"使用表情符號簡寫表示完成\" 時可用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, completing a task in a Dataview will automatically complete its subtasks too.",
+                    "target": "如果啟用，在資料檢視中完成一個任務將自動完成其子任務。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable inline queries",
+                    "target": "啟用內聯查詢"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable JavaScript queries",
+                    "target": "啟用 JavaScript 查詢"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable inline JavaScript queries",
+                    "target": "啟用內聯JavaScript查詢"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable inline field highlighting in reading view",
+                    "target": "在閱讀檢視中啟用內聯欄位高亮顯示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable inline field highlighting in Live Preview",
+                    "target": "在即時預覽中啟用內聯欄位高亮顯示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Codeblocks",
+                    "target": "程式碼區塊"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "DataviewJS keyword",
+                    "target": "DataviewJS 關鍵字"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Inline query prefix",
+                    "target": "內聯查詢字首"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "JavaScript inline query prefix",
+                    "target": "JavaScript 內聯查詢字首"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Code block inline queries",
+                    "target": "程式碼區塊內查詢"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "View",
+                    "target": "檢視"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display result count",
+                    "target": "顯示結果數量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Warn on empty result",
+                    "target": "在結果為空時警告"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Render null as",
+                    "target": "將 null 顯示為"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Automatic view refreshing",
+                    "target": "自動檢視重新整理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Refresh interval",
+                    "target": "重新整理間隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Date format",
+                    "target": "日期格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Date + time format",
+                    "target": "日期 + 時間格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Tables",
+                    "target": "表格"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Primary column name",
+                    "target": "主列名稱"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Grouped column name",
+                    "target": "分組列名稱"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Tasks",
+                    "target": "任務"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Automatic task completion tracking",
+                    "target": "自動任務完成跟蹤"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use emoji shorthand for completion",
+                    "target": "使用表情符號簡寫完成任務"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Completion field name",
+                    "target": "完成欄位名稱"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Completion date format",
+                    "target": "完成日期格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Recursive sub-task completion",
+                    "target": "遞迴子任務完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "File",
+                    "target": "檔案"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Group",
+                    "target": "群組"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Cache metadata about files and sections in the dataview index.",
+                    "target": "快取 dataview 索引中檔案和部分的後設資料。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Quoted field unterminated",
+                    "target": "引用欄位未結束"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Trailing quote on quoted field is malformed",
+                    "target": "引用欄位結尾引號格式錯誤"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Dataview: No results to show for task query.",
+                    "target": "資料檢視: 任務查詢沒有結果顯示。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Dataview: No results to show for list query.",
+                    "target": "資料檢視: 列表查詢沒有結果顯示。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Dataview: No results to show for table query.",
+                    "target": "資料檢視: 表查詢沒有結果顯示。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Force refresh all views and blocks",
+                    "target": "強制重新整理所有檢視和塊"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Drop all cached file metadata",
+                    "target": "清除所有快取的檔案後設資料"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Rebuild current view",
+                    "target": "重建目前檢視"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Previous Month",
+                    "target": "上個月"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Next Month",
+                    "target": "下個月"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "appendText(\": \")",
+                    "target": "appendText(\": \")"
+                },
+                {
+                    "source": "appendText(`<unknown widget '${field.$widget}>`)",
+                    "target": "appendText(`<unknown widget '${field.$widget}>`)"
+                },
+                {
+                    "source": "appendText(\", \")",
+                    "target": "appendText(\", \")"
+                },
+                {
+                    "source": "log(`Dataview: re-initialized index with ${files.length} files (${(Date.now() - start) / 1000.0}s)`)",
+                    "target": "log(`Dataview: re-initialized index with ${files.length} files (${(Date.now() - start) / 1000.0}s)`)"
+                },
+                {
+                    "source": "log(`Dataview: all ${files.length} files have been indexed in ${(Date.now() - reloadStart) / 1000.0}s (${cached} cached, ${skipped} skipped).`)",
+                    "target": "log(`Dataview: all ${files.length} files have been indexed in ${(Date.now() - reloadStart) / 1000.0}s (${cached} cached, ${skipped} skipped).`)"
+                },
+                {
+                    "source": "log(`Dataview: version ${this.manifest.version} (requires obsidian ${this.manifest.minAppVersion})`)",
+                    "target": "log(`Dataview: 版本${this.manifest.version} (需要Obsidian ${this.manifest.minAppVersion})`)"
+                },
+                {
+                    "source": "log(`Dataview: version ${this.manifest.version} unloaded.`)",
+                    "target": "log(`Dataview：版本 ${this.manifest.version} 已解除安裝。`)"
+                },
+                {
+                    "source": "setName(\"Enable inline queries\")",
+                    "target": "setName(\"啟用內聯查詢\")"
+                },
+                {
+                    "source": "setDesc(\"Enable or disable executing regular inline Dataview queries.\")",
+                    "target": "setDesc(\"啟用或停用執行常規的內聯 Dataview 查詢。\")"
+                },
+                {
+                    "source": "setName(\"Enable JavaScript queries\")",
+                    "target": "setName(\"啟用 JavaScript 查詢\")"
+                },
+                {
+                    "source": "setDesc(\"Enable or disable executing DataviewJS queries.\")",
+                    "target": "setDesc(\"啟用或停用執行 DataviewJS 查詢。\")"
+                },
+                {
+                    "source": "setName(\"Enable inline JavaScript queries\")",
+                    "target": "setName(\"啟用內聯JavaScript查詢\")"
+                },
+                {
+                    "source": "setDesc(\"Enable or disable executing inline DataviewJS queries. Requires that DataviewJS queries are enabled.\")",
+                    "target": "setDesc(\"啟用或停用執行內聯 DataviewJS 查詢。需要 DataviewJS 查詢已啟用。\")"
+                },
+                {
+                    "source": "setName(\"Enable inline field highlighting in reading view\")",
+                    "target": "setName(\"在閱讀檢視中啟用內聯欄位高亮顯示\")"
+                },
+                {
+                    "source": "setDesc(\"Enables or disables visual highlighting / pretty rendering for inline fields in reading view.\")",
+                    "target": "setDesc(\"在閱讀檢視中啟用或停用內聯欄位的視覺高亮顯示/美觀渲染。\")"
+                },
+                {
+                    "source": "setName(\"Enable inline field highlighting in Live Preview\")",
+                    "target": "setName(\"在即時預覽中啟用內聯欄位高亮顯示\")"
+                },
+                {
+                    "source": "setDesc(\"Enables or disables visual highlighting / pretty rendering for inline fields in Live Preview.\")",
+                    "target": "setDesc(\"啟用或停用即時預覽中內聯欄位的視覺高亮顯示/美化渲染。\")"
+                },
+                {
+                    "source": "setName(\"Codeblocks\")",
+                    "target": "setName(\"程式碼區塊\")"
+                },
+                {
+                    "source": "setName(\"DataviewJS keyword\")",
+                    "target": "setName(\"DataviewJS 關鍵字\")"
+                },
+                {
+                    "source": "setDesc(\"Keyword for DataviewJS blocks. Defaults to 'dataviewjs'. Reload required for changes to take effect.\")",
+                    "target": "setDesc(\"DataviewJS 區塊的關鍵字。預設為 'dataviewjs'。變更後需要重新載入才會生效。\")"
+                },
+                {
+                    "source": "setName(\"Inline query prefix\")",
+                    "target": "setName(\"內聯查詢字首\")"
+                },
+                {
+                    "source": "setDesc(\"The prefix to inline queries (to mark them as Dataview queries). Defaults to '='.\")",
+                    "target": "setDesc(\"內聯查詢的字首（用於標記為Dataview查詢）。預設為'='。\")"
+                },
+                {
+                    "source": "setName(\"JavaScript inline query prefix\")",
+                    "target": "setName(\"JavaScript 內聯查詢字首\")"
+                },
+                {
+                    "source": "setDesc(\"The prefix to JavaScript inline queries (to mark them as DataviewJS queries). Defaults to '$='.\")",
+                    "target": "setDesc(\"JavaScript 內聯查詢的字首（用於將其標記為 DataviewJS 查詢）。預設值為 '$='。\")"
+                },
+                {
+                    "source": "setName(\"Code block inline queries\")",
+                    "target": "setName(\"程式碼區塊內查詢\")"
+                },
+                {
+                    "source": "setDesc(\"If enabled, inline queries will also be evaluated inside full code blocks.\")",
+                    "target": "setDesc(\"如果啟用，內聯查詢也會在完整程式碼區塊中進行評估。\")"
+                },
+                {
+                    "source": "setName(\"View\")",
+                    "target": "setName(\"檢視\")"
+                },
+                {
+                    "source": "setName(\"Display result count\")",
+                    "target": "setName(\"顯示結果數量\")"
+                },
+                {
+                    "source": "setDesc(\"If toggled off, the small number in the result header of TASK and TABLE queries will be hidden.\")",
+                    "target": "setDesc(\"如果切換關閉，TASK 和 TABLE 查詢結果頭部的小數字將被隱藏。\")"
+                },
+                {
+                    "source": "setName(\"Warn on empty result\")",
+                    "target": "setName(\"在結果為空時警告\")"
+                },
+                {
+                    "source": "setDesc(\"If set, queries which return 0 results will render a warning message.\")",
+                    "target": "setDesc(\"如果設定了該選項，返回0結果的查詢將顯示警告資訊。\")"
+                },
+                {
+                    "source": "setName(\"Render null as\")",
+                    "target": "setName(\"將 null 顯示為\")"
+                },
+                {
+                    "source": "setDesc(\"What null/non-existent should show up as in tables, by default. This supports Markdown notation.\")",
+                    "target": "setDesc(\"在表格中預設應顯示什麼為空/不存在。這支援Markdown語法。\")"
+                },
+                {
+                    "source": "setName(\"Automatic view refreshing\")",
+                    "target": "setName(\"自動檢視重新整理\")"
+                },
+                {
+                    "source": "setDesc(\"If enabled, views will automatically refresh when files in your vault change; this can negatively affect\" +\n            \" some functionality like embeds in views, so turn it off if such functionality is not working.\")",
+                    "target": "setDesc(\"如果啟用，當 vault 中的檔案變更時，檢視會自動重新整理；這可能會影響效能。\" +\n            \" 如果某些功能（例如檢視中的嵌入）無法正常運作，請關閉此選項。\")"
+                },
+                {
+                    "source": "setName(\"Refresh interval\")",
+                    "target": "setName(\"重新整理間隔\")"
+                },
+                {
+                    "source": "setDesc(\"How long to wait (in milliseconds) for files to stop changing before updating views.\")",
+                    "target": "setDesc(\"在更新檢視之前，等待檔案停止更改的時間（以毫秒為單位）。\")"
+                },
+                {
+                    "source": "setName(\"Date format\")",
+                    "target": "setName(\"日期格式\")"
+                },
+                {
+                    "source": "setName(\"Primary column name\")",
+                    "target": "setName(\"主列名稱\")"
+                },
+                {
+                    "source": "setDesc(\"The name of the default ID column in tables; this is the auto-generated first column that links to the source file.\")",
+                    "target": "setDesc(\"表格中預設ID列的名稱；這是自動生成的第一列，用於連結到原始檔。\")"
+                },
+                {
+                    "source": "setName(\"Grouped column name\")",
+                    "target": "setName(\"分組列名稱\")"
+                },
+                {
+                    "source": "setDesc(\"The name of the default ID column in tables, when the table is on grouped data; this is the auto-generated first column\" +\n            \"that links to the source file/group.\")",
+                    "target": "setDesc(\"表格操作分組資料時，預設 ID 欄的名稱；這是自動產生的第一欄\" +\n            \"，會連結到檔案/群組。\")"
+                },
+                {
+                    "source": "setName(\"Tasks\")",
+                    "target": "setName(\"任務\")"
+                },
+                {
+                    "source": "setName(\"Automatic task completion tracking\")",
+                    "target": "setName(\"自動任務完成跟蹤\")"
+                },
+                {
+                    "source": "appendText(\"If enabled, Dataview will automatically append tasks with their completion date when they are checked in Dataview views.\")",
+                    "target": "appendText(\"如果啟用，Dataview將在Dataview檢視中自動附加已完成任務的完成日期。\")"
+                },
+                {
+                    "source": "appendText(\"Example with default field name and date format: - [x] my task [completion:: 2022-01-01]\")",
+                    "target": "appendText(\"預設的檔名與日期格式 : - [x] 我的任務 [completion:: 2022-01-01]\")"
+                },
+                {
+                    "source": "setName(\"Use emoji shorthand for completion\")",
+                    "target": "setName(\"使用表情符號簡寫完成任務\")"
+                },
+                {
+                    "source": "appendText('If enabled, will use emoji shorthand instead of inline field formatting to fill out implicit task field \"completion\".')",
+                    "target": "appendText('如果啟用，將使用表情符號簡寫代替內聯欄位格式來填寫隱式任務欄位“完成”。')"
+                },
+                {
+                    "source": "appendText(\"Example: - [x] my task ✅ 2022-01-01\")",
+                    "target": "appendText(\"- [x] 我的任務 ✅ 2022-01-01\")"
+                },
+                {
+                    "source": "appendText(\"Disable this to customize the completion date format or field name, or to use Dataview inline field formatting.\")",
+                    "target": "appendText(\"停用此選項以自定義完成日期格式或欄位名稱，或使用Dataview內聯欄位格式。\")"
+                },
+                {
+                    "source": "appendText('Only available when \"automatic task completion tracking\" is enabled.')",
+                    "target": "appendText('僅在啟用“自動任務完成跟蹤”時可用。')"
+                },
+                {
+                    "source": "setDesc('Only available when \"automatic task completion tracking\" is enabled.')",
+                    "target": "setDesc('僅在啟用“自動任務完成跟蹤”時可用。')"
+                },
+                {
+                    "source": "setName(\"Completion field name\")",
+                    "target": "setName(\"完成欄位名稱\")"
+                },
+                {
+                    "source": "appendText(\"Text used as inline field key for task completion date when toggling a task's checkbox in a Dataview view.\")",
+                    "target": "appendText(\"在 Dataview 檢視中切換任務核取方塊時用作內聯欄位鍵的任務完成日期。\")"
+                },
+                {
+                    "source": "appendText('Only available when \"automatic task completion tracking\" is enabled and \"use emoji shorthand for completion\" is disabled.')",
+                    "target": "appendText('僅在啟用 \"自動任務完成跟蹤\" 且停用 \"使用表情符號簡寫表示完成\" 時可用。')"
+                },
+                {
+                    "source": "setDesc('Only available when \"automatic task completion tracking\" is enabled and \"use emoji shorthand for completion\" is disabled.')",
+                    "target": "setDesc('僅在啟用 \"自動任務完成跟蹤\" 且停用 \"使用表情符號簡寫表示完成\" 時可用。')"
+                },
+                {
+                    "source": "setName(\"Completion date format\")",
+                    "target": "setName(\"完成日期格式\")"
+                },
+                {
+                    "source": "setName(\"Recursive sub-task completion\")",
+                    "target": "setName(\"遞迴子任務完成\")"
+                },
+                {
+                    "source": "setDesc(\"If enabled, completing a task in a Dataview will automatically complete its subtasks too.\")",
+                    "target": "setDesc(\"如果啟用，在資料檢視中完成一個任務將自動完成其子任務。\")"
+                },
+                {
+                    "source": "text = \"root\"",
+                    "target": "text = \"root\""
+                },
+                {
+                    "source": "description: ''",
+                    "target": "description: ''"
+                },
+                {
+                    "source": "name: 'localforage'",
+                    "target": "name: 'localforage'"
+                },
+                {
+                    "source": "name: \"dataview/cache/\"",
+                    "target": "name: \"dataview/cache/\""
+                },
+                {
+                    "source": "description: \"Cache metadata about files and sections in the dataview index.\"",
+                    "target": "description: \"快取 dataview 索引中檔案和部分的後設資料。\""
+                },
+                {
+                    "source": "name: \"Dataview Indexer \"",
+                    "target": "name: \"Dataview 索引器 \""
+                },
+                {
+                    "source": "textContent = `${/*todayDisplayStr*/ ctx[4]}`",
+                    "target": "textContent = `${/*todayDisplayStr*/ ctx[4]}`"
+                },
+                {
+                    "source": "textContent = \"W\"",
+                    "target": "textContent = \"W\""
+                },
+                {
+                    "source": "innerText = \"(disabled; enable in settings)\"",
+                    "target": "innerText = \"（已停用；請在設定中啟用）\""
+                },
+                {
+                    "source": "name: \"Force refresh all views and blocks\"",
+                    "target": "name: \"強制重新整理所有檢視和塊\""
+                },
+                {
+                    "source": "name: \"Drop all cached file metadata\"",
+                    "target": "name: \"清除所有快取的檔案後設資料\""
+                },
+                {
+                    "source": "name: \"Rebuild current view\"",
+                    "target": "name: \"重建目前檢視\""
+                },
+                {
+                    "source": "If enabled, views will automatically refresh when files in your vault change; this can negatively affect",
+                    "target": "啟用後，儲存庫中的檔案變更時會自動重新整理檢視；但這可能影響"
+                },
+                {
+                    "source": " some functionality like embeds in views, so turn it off if such functionality is not working.",
+                    "target": "部分功能（例如檢視中的嵌入內容）。若相關功能無法正常運作，請關閉此選項。"
+                },
+                {
+                    "source": "The default date format (see Luxon date format options).",
+                    "target": "預設日期格式（請參閱 Luxon 日期格式選項）。"
+                },
+                {
+                    "source": "The default date and time format (see Luxon date format options).",
+                    "target": "預設日期與時間格式（請參閱 Luxon 日期格式選項）。"
+                },
+                {
+                    "source": "The name of the default ID column in tables, when the table is on grouped data; this is the auto-generated first column",
+                    "target": "表格使用分組資料時，預設 ID 欄的名稱；這是自動產生的第一欄"
+                },
+                {
+                    "source": "that links to the source file/group.",
+                    "target": "，會連結到來源檔案或群組。"
+                },
+                {
+                    "source": "Date-time format for task completion date when toggling a task's checkbox in a Dataview view (see Luxon date format options).",
+                    "target": "在 Dataview 檢視中切換任務核取方塊時，記錄完成日期所使用的日期時間格式（請參閱 Luxon 日期格式選項）。"
+                },
+                {
+                    "source": "Only available when \\\"automatic task completion tracking\\\" is enabled and \\\"use emoji shorthand for completion\\\" is disabled.",
+                    "target": "僅在啟用「自動追蹤任務完成狀態」並停用「使用表情符號簡寫完成狀態」時可用。"
+                },
+                {
+                    "source": " Currently: ",
+                    "target": "目前："
+                },
+                {
+                    "source": "Currently: ",
+                    "target": "目前："
+                }
+            ]
+        },
+        "manifest.json": {
+            "ast": [
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Complex data views for the data-obsessed.",
+                    "target": "為熱衷資料整理的使用者提供複雜資料檢視。"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "\"description\": \"Complex data views for the data-obsessed.\"",
+                    "target": "\"description\": \"為熱衷資料整理的使用者提供複雜資料檢視。\""
+                }
+            ]
+        }
+    }
+}

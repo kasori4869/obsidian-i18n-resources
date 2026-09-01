@@ -1,28 +1,15 @@
 [
-    {
-        "id": "rt0gH1oy2c4sBM7PAyTXhHaSediYspOv",
-        "plugin": "templater-obsidian",
-        "language": "zh-cn",
-        "version": "2.25.0",
-        "supported_versions": "2.25.0",
-        "title": "Templater",
-        "description": "Templater Localization & Tweaks",
-        "hash": "0d1b52d80d1b52d80d1b52d80d1b52d8",
-        "created_at": "2026-09-01T18:20:25.192Z",
-        "updated_at": "2026-09-01T18:20:25.192Z",
-        "type": "plugin"
-    },
-    {
-        "id": "2jyNf4I7hmJfyZts8M8hP30eYbtdFU2r",
-        "plugin": "templater-obsidian",
-        "language": "zh-cn",
-        "version": "2.25.0",
-        "supported_versions": "2.25.0",
-        "title": "Templater",
-        "description": "Templater Localization & Tweaks",
-        "hash": "22429761224297612242976122429761",
-        "created_at": "2026-09-01T18:43:01.238Z",
-        "updated_at": "2026-09-01T18:43:01.238Z",
-        "type": "plugin"
-    }
+  {
+    "id": "2jyNf4I7hmJfyZts8M8hP30eYbtdFU2r",
+    "plugin": "templater-obsidian",
+    "language": "zh-cn",
+    "version": "2.25.0",
+    "supported_versions": "2.25.0",
+    "title": "Templater",
+    "description": "Templater Localization & Tweaks",
+    "hash": "22429761224297612242976122429761",
+    "created_at": "2026-09-01T18:43:01.238Z",
+    "updated_at": "2026-09-01T18:43:01.238Z",
+    "type": "plugin"
+  }
 ]

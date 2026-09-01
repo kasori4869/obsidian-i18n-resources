@@ -1,0 +1,338 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-style-settings",
+        "version": "1.0.0",
+        "title": "Style Settings",
+        "description": "Style Settings Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.9",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "none",
+                    "target": "none"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Style settings configured by theme and plugin authors will show up here. You can also create your own configuration by creating a CSS snippet in your vault. ",
+                    "target": "Style settings configured by theme and plugin authors will show up here. You can also create your own configuration by creating a CSS snippet in your vault. "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "theme-light style-settings-ref",
+                    "target": "theme-light style-settings-ref"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "theme-dark style-settings-ref",
+                    "target": "theme-dark style-settings-ref"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "label",
+                    "target": "label"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "small",
+                    "target": "small"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "strong",
+                    "target": "strong"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "div",
+                    "target": "div"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "br",
+                    "target": "br"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error: Style Settings locale not found",
+                    "target": "Error: Style Settings locale not found"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Style Settings | Failed to render section",
+                    "target": "Style Settings | Failed to render section"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Save",
+                    "target": "Save"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Import an entire or partial configuration. Warning: this may override existing settings",
+                    "target": "Import an entire or partial configuration. Warning: this may override existing settings"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Import style setting",
+                    "target": "Import style setting"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Paste config here...",
+                    "target": "Paste config here..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Search Style Settings...",
+                    "target": "Search Style Settings..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Error importing style settings: config is empty",
+                    "target": "Error importing style settings: config is empty"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Reset all settings to default",
+                    "target": "Reset all settings to default"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Export settings",
+                    "target": "Export settings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "picker",
+                    "target": "picker"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show style settings view",
+                    "target": "Show style settings view"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Style Settings",
+                    "target": "Style Settings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Copy to clipboard",
+                    "target": "Copy to clipboard"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Download",
+                    "target": "Download"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Error importing config",
+                    "target": "Error importing config"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Import from file",
+                    "target": "Import from file"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Default (light): ",
+                    "target": "Default (light): "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Default (dark): ",
+                    "target": "Default (dark): "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No style settings found",
+                    "target": "No style settings found"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Click here for details and examples.",
+                    "target": "Click here for details and examples."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Import",
+                    "target": "Import"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Export",
+                    "target": "Export"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setName(`Export settings for: ${this.section}`)",
+                    "target": "setName(`Export settings for: ${this.section}`)"
+                },
+                {
+                    "source": "setName(\"Import style setting\")",
+                    "target": "setName(\"Import style setting\")"
+                },
+                {
+                    "source": "setDesc(\"Import an entire or partial configuration. Warning: this may override existing settings\")",
+                    "target": "setDesc(\"Import an entire or partial configuration. Warning: this may override existing settings\")"
+                },
+                {
+                    "source": "setText(`Error importing style settings: ${p}`)",
+                    "target": "setText(`Error importing style settings: ${p}`)"
+                },
+                {
+                    "source": "setText(\"Error importing style settings: config is empty\")",
+                    "target": "setText(\"Error importing style settings: config is empty\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Paste config here...\")",
+                    "target": "setPlaceholder(\"Paste config here...\")"
+                },
+                {
+                    "source": "error(`${de(\"Error:\")} ${t} ${de(\"missing default value\")}`)",
+                    "target": "error(`${de(\"Error:\")} ${t} ${de(\"missing default value\")}`)"
+                },
+                {
+                    "source": "error(`${de(\"Error:\")} ${t} ${de(\"missing default value, or value is not in a valid color format\")}`)",
+                    "target": "error(`${de(\"Error:\")} ${t} ${de(\"missing default value, or value is not in a valid color format\")}`)"
+                },
+                {
+                    "source": "error(`${de(\"Error:\")} ${t} ${de(\"missing default light value, or value is not in a valid color format\")}`)",
+                    "target": "error(`${de(\"Error:\")} ${t} ${de(\"missing default light value, or value is not in a valid color format\")}`)"
+                },
+                {
+                    "source": "error(`${de(\"Error:\")} ${t} ${de(\"missing default dark value, or value is not in a valid color format\")}`)",
+                    "target": "error(`${de(\"Error:\")} ${t} ${de(\"missing default dark value, or value is not in a valid color format\")}`)"
+                },
+                {
+                    "source": "setText(`${this.filterResultCount} Results`)",
+                    "target": "setText(`${this.filterResultCount} Results`)"
+                },
+                {
+                    "source": "setTooltip(\"Reset all settings to default\")",
+                    "target": "setTooltip(\"Reset all settings to default\")"
+                },
+                {
+                    "source": "setTooltip(\"Export settings\")",
+                    "target": "setTooltip(\"Export settings\")"
+                },
+                {
+                    "source": "appendText(\"Style settings configured by theme and plugin authors will show up here. You can also create your own configuration by creating a CSS snippet in your vault. \")",
+                    "target": "appendText(\"Style settings configured by theme and plugin authors will show up here. You can also create your own configuration by creating a CSS snippet in your vault. \")"
+                },
+                {
+                    "source": "setPlaceholder(\"Search Style Settings...\")",
+                    "target": "setPlaceholder(\"Search Style Settings...\")"
+                },
+                {
+                    "source": "error(\"Style Settings | Failed to render section\",p)}}}filter(){for(let t of this.settingsComponentTrees)t.filter(this.filterString)}clearFilter(){for(let t of this.settingsComponentTrees)t.clearFilter()}rerender(){this.cleanup(),this.display()}};var Oi=require(\"obsidian\")",
+                    "target": "error(\"Style Settings | Failed to render section\",p)}}}filter(){for(let t of this.settingsComponentTrees)t.filter(this.filterString)}clearFilter(){for(let t of this.settingsComponentTrees)t.clearFilter()}rerender(){this.cleanup(),this.display()}};var Oi=require(\"obsidian\")"
+                },
+                {
+                    "source": "name: \"+r)},E.autodetect.push({p:5,test:function(r){for(var s=[],o=arguments.length-1;o-- >0;)s[o]=arguments[o+1];if(!s.length&&zs(r)===\"",
+                    "target": "name: \"+r)},E.autodetect.push({p:5,test:function(r){for(var s=[],o=arguments.length-1;o-- >0;)s[o]=arguments[o+1];if(!s.length&&zs(r)===\""
+                },
+                {
+                    "source": "text:\"Copy to clipboard\"",
+                    "target": "text:\"Copy to clipboard\""
+                },
+                {
+                    "source": "text:\"Error importing config\"",
+                    "target": "text:\"Error importing config\""
+                },
+                {
+                    "source": "text:\"Import from file\"",
+                    "target": "text:\"Import from file\""
+                },
+                {
+                    "source": "innerText=`\n\t\t\tbody.css-settings-manager {\n\t\t\t\t${n.reduce((i,l)=>i+`",
+                    "target": "innerText=`\n\t\t\tbody.css-settings-manager {\n\t\t\t\t${n.reduce((i,l)=>i+`"
+                },
+                {
+                    "source": "text:`${de(\"Default:\")} `",
+                    "target": "text:`${de(\"Default:\")} `"
+                },
+                {
+                    "source": "text:\"Default (light): \"",
+                    "target": "text:\"Default (light): \""
+                },
+                {
+                    "source": "text:\"Default (dark): \"",
+                    "target": "text:\"Default (dark): \""
+                },
+                {
+                    "source": "text:`Error: ${i.name}`",
+                    "target": "text:`Error: ${i.name}`"
+                },
+                {
+                    "source": "text:\"No style settings found\"",
+                    "target": "text:\"No style settings found\""
+                },
+                {
+                    "source": "text:\"Click here for details and examples.\"",
+                    "target": "text:\"Click here for details and examples.\""
+                },
+                {
+                    "source": "name:\"Show style settings view\"",
+                    "target": "name:\"Show style settings view\""
+                },
+                {
+                    "source": "name:\"Style Settings\"",
+                    "target": "name:\"Style Settings\""
+                },
+                {
+                    "source": "name:`Toggle ${a.title}`",
+                    "target": "name:`Toggle ${a.title}`"
+                }
+            ]
+        }
+    }
+}

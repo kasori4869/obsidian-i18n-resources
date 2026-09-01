@@ -1,0 +1,430 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "rich-table",
+        "version": "1.0.0",
+        "title": "Rich Table",
+        "description": "Rich Table Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.3.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "hr",
+                    "target": "hr"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "textarea",
+                    "target": "textarea"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "br",
+                    "target": "br"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "tr",
+                    "target": "tr"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "td",
+                    "target": "td"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "table",
+                    "target": "table"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "colgroup",
+                    "target": "colgroup"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "col",
+                    "target": "col"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "thead",
+                    "target": "thead"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "tbody",
+                    "target": "tbody"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add type",
+                    "target": "Add type"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add option",
+                    "target": "Add option"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When off (default), all interactive behaviour — hover selector strips, click-to-edit, double-click panels, choice dropdowns — is disabled in Obsidian's reading view. Live preview / source mode is always interactive.",
+                    "target": "当关闭 (默认) 时，所有交互行为——悬停选择条、单击编辑、双击面板、选择下拉——在黑曜石的阅读视图中都会被禁用。实时预览/源代码模式始终是交互的。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When on, a single click on a cell enters edit mode immediately (no ~200ms delay), and the style panel opens with Ctrl/Cmd+click instead of double-click. Speeds up rapid consecutive editing. When off (default), single click enters edit after a short delay and double click opens the style panel.",
+                    "target": "打开时，单击单元格会立即进入编辑模式 (没有约 200 毫秒的延迟)，并且样式面板会使用 Ctrl/Cmd+click 打开，而不是双击。加速快速连续编辑。关闭时 (默认值)，单击会在短延迟后进入编辑，并且双击会打开样式面板。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Allow editing in reading view",
+                    "target": "在阅读视图中允许编辑"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Single-click to edit",
+                    "target": "单击以编辑"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Built-in types",
+                    "target": "内置类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom types",
+                    "target": "定制类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Type ID",
+                    "target": "Type ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Delete type",
+                    "target": "Delete type"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Delete option",
+                    "target": "Delete option"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "bt-choice bt-builtin-pill",
+                    "target": "bt-choice bt-builtin-pill"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "bt-inline-editor bt-inline-editor-multi",
+                    "target": "bt-inline-editor bt-inline-editor-multi"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "bt-resize-indicator bt-resize-indicator-col",
+                    "target": "bt-resize-indicator bt-resize-indicator-col"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "bt-resize-indicator bt-resize-indicator-row",
+                    "target": "bt-resize-indicator bt-resize-indicator-row"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "bt-fp-row bt-fp-all-row",
+                    "target": "bt-fp-row bt-fp-all-row"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "bt-choice bt-choice-unknown bt-formula-error",
+                    "target": "bt-choice bt-choice-unknown bt-formula-error"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "bt-td bt-col-indicator bt-agg-td",
+                    "target": "bt-td bt-col-indicator bt-agg-td"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "bt-td bt-agg-td",
+                    "target": "bt-td bt-agg-td"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "bt-sel-cell bt-sel-agg-cell",
+                    "target": "bt-sel-cell bt-sel-agg-cell"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "bt-sel-row-drag bt-sel-agg-drag",
+                    "target": "bt-sel-row-drag bt-sel-agg-drag"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "bt-upgrade-banner-btn bt-upgrade-banner-btn-muted",
+                    "target": "bt-upgrade-banner-btn bt-upgrade-banner-btn-muted"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Option 1 (edit me)",
+                    "target": "Option 1 (edit me)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Todo",
+                    "target": "Todo"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Pending",
+                    "target": "Pending"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "In Progress",
+                    "target": "In Progress"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Done",
+                    "target": "Done"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Cancel",
+                    "target": "Cancel"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "High",
+                    "target": "High"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Medium",
+                    "target": "Medium"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Low",
+                    "target": "Low"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Yes",
+                    "target": "Yes"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "No",
+                    "target": "No"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "★★",
+                    "target": "★★"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "★★★",
+                    "target": "★★★"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "★★★★",
+                    "target": "★★★★"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "★★★★★",
+                    "target": "★★★★★"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "XS",
+                    "target": "XS"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "XL",
+                    "target": "XL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Approved",
+                    "target": "Approved"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Rejected",
+                    "target": "Rejected"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Value",
+                    "target": "Value"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Label",
+                    "target": "Label"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Default",
+                    "target": "Default"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "date",
+                    "target": "date"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Date picker (YYYY-MM-DD)",
+                    "target": "Date picker (YYYY-MM-DD)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Options (value · display label · color)",
+                    "target": "Options (value · display label · color)"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setName(\"Allow editing in reading view\")",
+                    "target": "setName(\"Allow editing in reading view\")"
+                },
+                {
+                    "source": "setName(\"Single-click to edit\")",
+                    "target": "setName(\"Single-click to edit\")"
+                },
+                {
+                    "source": "setName(\"Built-in types\")",
+                    "target": "setName(\"Built-in types\")"
+                },
+                {
+                    "source": "setName(\"Custom types\")",
+                    "target": "setName(\"Custom types\")"
+                },
+                {
+                    "source": "setButtonText(\"Add type\")",
+                    "target": "setButtonText(\"Add type\")"
+                },
+                {
+                    "source": "setName(\"Type ID\")",
+                    "target": "setName(\"Type ID\")"
+                },
+                {
+                    "source": "setTooltip(\"Delete type\")",
+                    "target": "setTooltip(\"Delete type\")"
+                },
+                {
+                    "source": "setButtonText(\"Add option\")",
+                    "target": "setButtonText(\"Add option\")"
+                },
+                {
+                    "source": "setTitle(`${E(\"newKanbanView\")} ${c.name}`)",
+                    "target": "setTitle(`${E(\"newKanbanView\")} ${c.name}`)"
+                },
+                {
+                    "source": "setTitle(`${E(\"newCalendarView\")} ${c.name}`)",
+                    "target": "setTitle(`${E(\"newCalendarView\")} ${c.name}`)"
+                },
+                {
+                    "source": "text:\"Date picker (YYYY-MM-DD)\"",
+                    "target": "text:\"Date picker (YYYY-MM-DD)\""
+                },
+                {
+                    "source": "text:` ${eo()}`",
+                    "target": "text:` ${eo()}`"
+                },
+                {
+                    "source": "text:` ${x.length} hidden row${x.length>1?\"s\":\"\"}`",
+                    "target": "text:` ${x.length} hidden row${x.length>1?\"s\":\"\"}`"
+                },
+                {
+                    "source": "text:`Rich Table: ${p}`",
+                    "target": "text:`Rich Table: ${p}`"
+                }
+            ]
+        }
+    }
+}
